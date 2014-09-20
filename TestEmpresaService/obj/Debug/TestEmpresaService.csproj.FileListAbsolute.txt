@@ -18,3 +18,13 @@ E:\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\bin\Debug\SCTServiceWCF.pdb
 E:\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\obj\Debug\TestEmpresaService.csprojResolveAssemblyReference.cache
 E:\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\obj\Debug\TestEmpresaService.dll
 E:\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\obj\Debug\TestEmpresaService.pdb
+C:\Users\Alumnos\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\bin\Debug\TestEmpresaService.dll.config
+C:\Users\Alumnos\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\bin\Debug\TestEmpresaService.dll
+C:\Users\Alumnos\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\bin\Debug\TestEmpresaService.pdb
+C:\Users\Alumnos\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\bin\Debug\SCTServiceWCF.dll
+C:\Users\Alumnos\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\bin\Debug\NHibernate.dll
+C:\Users\Alumnos\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\bin\Debug\Iesi.Collections.dll
+C:\Users\Alumnos\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\bin\Debug\SCTServiceWCF.pdb
+C:\Users\Alumnos\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\obj\Debug\TestEmpresaService.csprojResolveAssemblyReference.cache
+C:\Users\Alumnos\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\obj\Debug\TestEmpresaService.dll
+C:\Users\Alumnos\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\obj\Debug\TestEmpresaService.pdb

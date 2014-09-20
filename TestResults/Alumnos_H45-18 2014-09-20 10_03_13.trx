@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="897f2cb4-d32d-4bfd-81fa-6b17a78e424f" name="Alumnos@H45-18 2014-09-20 10:03:13" runUser="H45-18\Alumnos" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ee37db28-8d7b-4fc9-94c4-dec392d1284c">
+    <Description>Esta es la configuración de pruebas predeterminada para una ejecución de pruebas local.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Alumnos_H45-18 2014-09-20 10_03_13">
+      <DeploymentItem filename="C:\Users\Alumnos\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\bin\SCTServiceWCF.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-09-20T10:03:13.6665900-05:00" queuing="2014-09-20T10:03:16.1377313-05:00" start="2014-09-20T10:03:16.1917344-05:00" finish="2014-09-20T10:04:18.6933093-05:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="4" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="3" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="H45-18" outcome="Error" timestamp="2014-09-20T10:04:18.6923092-05:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test1_CrearEmpresa" storage="c:\users\alumnos\documents\github\sct_dsd_distribuidos\testempresaservice\bin\debug\testempresaservice.dll" id="ec6128b7-61a4-9234-c069-a521aae10e92">
+      <Execution id="6a7a42f1-241d-4ae0-8911-9e8e5f42e53b" />
+      <TestMethod codeBase="C:/Users/Alumnos/Documents/GitHub/SCT_DSD_DISTRIBUIDOS/TestEmpresaService/bin/Debug/TestEmpresaService.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestEmpresaService.UnitTest1, TestEmpresaService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test1_CrearEmpresa" />
+    </UnitTest>
+    <UnitTest name="Test2_ModificarEmpresa" storage="c:\users\alumnos\documents\github\sct_dsd_distribuidos\testempresaservice\bin\debug\testempresaservice.dll" id="9ffd93be-7621-18ff-9aa8-6ba9f180634c">
+      <Execution id="418755d5-2e97-47b4-bee3-306aa7760c96" />
+      <TestMethod codeBase="C:/Users/Alumnos/Documents/GitHub/SCT_DSD_DISTRIBUIDOS/TestEmpresaService/bin/Debug/TestEmpresaService.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestEmpresaService.UnitTest1, TestEmpresaService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test2_ModificarEmpresa" />
+    </UnitTest>
+    <UnitTest name="Test4_ListarEmpresa" storage="c:\users\alumnos\documents\github\sct_dsd_distribuidos\testempresaservice\bin\debug\testempresaservice.dll" id="a36491d5-5781-9c9c-b228-6f2ff3259abb">
+      <Execution id="d2146152-7d2d-42a6-a9b5-f4abdac61368" />
+      <TestMethod codeBase="C:/Users/Alumnos/Documents/GitHub/SCT_DSD_DISTRIBUIDOS/TestEmpresaService/bin/Debug/TestEmpresaService.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestEmpresaService.UnitTest1, TestEmpresaService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test4_ListarEmpresa" />
+    </UnitTest>
+    <UnitTest name="Test3_EliminarEmpresa" storage="c:\users\alumnos\documents\github\sct_dsd_distribuidos\testempresaservice\bin\debug\testempresaservice.dll" id="e7e21d48-d7dd-207e-276f-95d538f1cf8e">
+      <Execution id="fff5ec2b-0a7a-40cd-80d3-08aeb0c27247" />
+      <TestMethod codeBase="C:/Users/Alumnos/Documents/GitHub/SCT_DSD_DISTRIBUIDOS/TestEmpresaService/bin/Debug/TestEmpresaService.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestEmpresaService.UnitTest1, TestEmpresaService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test3_EliminarEmpresa" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="ec6128b7-61a4-9234-c069-a521aae10e92" executionId="a40bbc88-dc19-4e77-9e6f-e74ae2e6315f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9ffd93be-7621-18ff-9aa8-6ba9f180634c" executionId="cd778d79-d5cb-4271-b4d5-e0bc896b53a6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e7e21d48-d7dd-207e-276f-95d538f1cf8e" executionId="759f2ee3-140d-4c3f-96ca-8d53b21b5cc9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a36491d5-5781-9c9c-b228-6f2ff3259abb" executionId="7dfaa26a-775f-4023-a064-e91cbc836848" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a40bbc88-dc19-4e77-9e6f-e74ae2e6315f" testId="ec6128b7-61a4-9234-c069-a521aae10e92" testName="Test1_CrearEmpresa" computerName="H45-18" duration="00:01:02.3785679" startTime="2014-09-20T10:03:16.3147414-05:00" endTime="2014-09-20T10:04:18.6933093-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a40bbc88-dc19-4e77-9e6f-e74ae2e6315f">
+    </UnitTestResult>
+    <UnitTestResult executionId="cd778d79-d5cb-4271-b4d5-e0bc896b53a6" testId="9ffd93be-7621-18ff-9aa8-6ba9f180634c" testName="Test2_ModificarEmpresa" computerName="H45-18" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cd778d79-d5cb-4271-b4d5-e0bc896b53a6">
+    </UnitTestResult>
+    <UnitTestResult executionId="759f2ee3-140d-4c3f-96ca-8d53b21b5cc9" testId="e7e21d48-d7dd-207e-276f-95d538f1cf8e" testName="Test3_EliminarEmpresa" computerName="H45-18" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="759f2ee3-140d-4c3f-96ca-8d53b21b5cc9">
+    </UnitTestResult>
+    <UnitTestResult executionId="7dfaa26a-775f-4023-a064-e91cbc836848" testId="a36491d5-5781-9c9c-b228-6f2ff3259abb" testName="Test4_ListarEmpresa" computerName="H45-18" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7dfaa26a-775f-4023-a064-e91cbc836848">
+    </UnitTestResult>
+  </Results>
+</TestRun>

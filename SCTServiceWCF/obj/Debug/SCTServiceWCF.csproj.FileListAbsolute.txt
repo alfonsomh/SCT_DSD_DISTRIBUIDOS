@@ -12,3 +12,10 @@ D:\UPC\EPE\Ciclo 06\Desarrollo para Sistemas Distribuidos\SCT_DSD_DISTRIBUIDOS-m
 D:\UPC\EPE\Ciclo 06\Desarrollo para Sistemas Distribuidos\SCT_DSD_DISTRIBUIDOS-master\SCTServiceWCF\obj\Debug\ResolveAssemblyReference.cache
 D:\UPC\EPE\Ciclo 06\Desarrollo para Sistemas Distribuidos\SCT_DSD_DISTRIBUIDOS-master\SCTServiceWCF\obj\Debug\SCTServiceWCF.dll
 D:\UPC\EPE\Ciclo 06\Desarrollo para Sistemas Distribuidos\SCT_DSD_DISTRIBUIDOS-master\SCTServiceWCF\obj\Debug\SCTServiceWCF.pdb
+C:\Users\Alumnos\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\bin\SCTServiceWCF.dll
+C:\Users\Alumnos\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\bin\SCTServiceWCF.pdb
+C:\Users\Alumnos\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\bin\Iesi.Collections.dll
+C:\Users\Alumnos\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\bin\NHibernate.dll
+C:\Users\Alumnos\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\obj\Debug\SCTServiceWCF.csprojResolveAssemblyReference.cache
+C:\Users\Alumnos\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\obj\Debug\SCTServiceWCF.dll
+C:\Users\Alumnos\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\obj\Debug\SCTServiceWCF.pdb
