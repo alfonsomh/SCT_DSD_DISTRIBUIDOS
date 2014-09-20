@@ -1,0 +1,20 @@
+D:\UPC\EPE\Ciclo 06\Desarrollo para Sistemas Distribuidos\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\bin\Debug\TestEmpresaService.dll
+D:\UPC\EPE\Ciclo 06\Desarrollo para Sistemas Distribuidos\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\bin\Debug\TestEmpresaService.pdb
+D:\UPC\EPE\Ciclo 06\Desarrollo para Sistemas Distribuidos\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\obj\Debug\ResolveAssemblyReference.cache
+D:\UPC\EPE\Ciclo 06\Desarrollo para Sistemas Distribuidos\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\obj\Debug\TestEmpresaService.dll
+D:\UPC\EPE\Ciclo 06\Desarrollo para Sistemas Distribuidos\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\obj\Debug\TestEmpresaService.pdb
+D:\UPC\EPE\Ciclo 06\Desarrollo para Sistemas Distribuidos\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\bin\Debug\TestEmpresaService.dll.config
+D:\UPC\EPE\Ciclo 06\Desarrollo para Sistemas Distribuidos\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\bin\Debug\SCTServiceWCF.dll
+D:\UPC\EPE\Ciclo 06\Desarrollo para Sistemas Distribuidos\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\bin\Debug\NHibernate.dll
+D:\UPC\EPE\Ciclo 06\Desarrollo para Sistemas Distribuidos\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\bin\Debug\Iesi.Collections.dll
+D:\UPC\EPE\Ciclo 06\Desarrollo para Sistemas Distribuidos\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\bin\Debug\SCTServiceWCF.pdb
+E:\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\bin\Debug\TestEmpresaService.dll.config
+E:\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\bin\Debug\TestEmpresaService.dll
+E:\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\bin\Debug\TestEmpresaService.pdb
+E:\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\bin\Debug\SCTServiceWCF.dll
+E:\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\bin\Debug\NHibernate.dll
+E:\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\bin\Debug\Iesi.Collections.dll
+E:\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\bin\Debug\SCTServiceWCF.pdb
+E:\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\obj\Debug\TestEmpresaService.csprojResolveAssemblyReference.cache
+E:\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\obj\Debug\TestEmpresaService.dll
+E:\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\obj\Debug\TestEmpresaService.pdb

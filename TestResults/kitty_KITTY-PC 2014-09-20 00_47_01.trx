@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e1cc88a4-6fa7-45b5-a1e1-b06adb21e48c" name="kitty@KITTY-PC 2014-09-20 00:47:01" runUser="kitty-PC\kitty" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ee37db28-8d7b-4fc9-94c4-dec392d1284c">
+    <Description>Esta es la configuración de pruebas predeterminada para una ejecución de pruebas local.</Description>
+    <Deployment enabled="false" runDeploymentRoot="kitty_KITTY-PC 2014-09-20 00_47_01">
+      <DeploymentItem filename="D:\UPC\EPE\Ciclo 06\Desarrollo para Sistemas Distribuidos\SCT_DSD_DISTRIBUIDOS-master\SCTServiceWCF\bin\SCTServiceWCF.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-09-20T00:47:01.2111905-05:00" queuing="2014-09-20T00:47:02.0142098-05:00" start="2014-09-20T00:47:02.0892116-05:00" finish="2014-09-20T00:47:05.5802954-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test1_CrearEmpresa" storage="d:\upc\epe\ciclo 06\desarrollo para sistemas distribuidos\sct_dsd_distribuidos-master\testempresaservice\bin\debug\testempresaservice.dll" id="ec6128b7-61a4-9234-c069-a521aae10e92">
+      <Execution id="fc545e44-7d8c-4de4-92b7-aefa610a9da8" />
+      <TestMethod codeBase="D:/UPC/EPE/Ciclo 06/Desarrollo para Sistemas Distribuidos/SCT_DSD_DISTRIBUIDOS-master/TestEmpresaService/bin/Debug/TestEmpresaService.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestEmpresaService.UnitTest1, TestEmpresaService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test1_CrearEmpresa" />
+    </UnitTest>
+    <UnitTest name="Test1_ModificarEmpresa" storage="d:\upc\epe\ciclo 06\desarrollo para sistemas distribuidos\sct_dsd_distribuidos-master\testempresaservice\bin\debug\testempresaservice.dll" id="daa99df3-d624-3b23-0632-26c3bcffac93">
+      <Execution id="410a2203-33cb-4159-afe6-bf3df12b5df2" />
+      <TestMethod codeBase="D:/UPC/EPE/Ciclo 06/Desarrollo para Sistemas Distribuidos/SCT_DSD_DISTRIBUIDOS-master/TestEmpresaService/bin/Debug/TestEmpresaService.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestEmpresaService.UnitTest1, TestEmpresaService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test1_ModificarEmpresa" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Resultados que no están en la lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="ec6128b7-61a4-9234-c069-a521aae10e92" executionId="fc545e44-7d8c-4de4-92b7-aefa610a9da8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="daa99df3-d624-3b23-0632-26c3bcffac93" executionId="410a2203-33cb-4159-afe6-bf3df12b5df2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="fc545e44-7d8c-4de4-92b7-aefa610a9da8" testId="ec6128b7-61a4-9234-c069-a521aae10e92" testName="Test1_CrearEmpresa" computerName="KITTY-PC" duration="00:00:02.1220102" startTime="2014-09-20T00:47:02.1262125-05:00" endTime="2014-09-20T00:47:05.3442897-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fc545e44-7d8c-4de4-92b7-aefa610a9da8">
+      <Output>
+        <StdOut>NHibernate: INSERT INTO T_SCT_EMPRESA (EMPRESA, RUC, TELEFONO, DIRECCION) VALUES (@p0, @p1, @p2, @p3); select SCOPE_IDENTITY();@p0 = 'Transporte el Sol' [Type: String (4000)], @p1 = '104343234432' [Type: String (4000)], @p2 = '5643232' [Type: String (4000)], @p3 = 'su casa en donde no se' [Type: String (4000)]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="410a2203-33cb-4159-afe6-bf3df12b5df2" testId="daa99df3-d624-3b23-0632-26c3bcffac93" testName="Test1_ModificarEmpresa" computerName="KITTY-PC" duration="00:00:00.1272943" startTime="2014-09-20T00:47:05.3522899-05:00" endTime="2014-09-20T00:47:05.4982934-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="410a2203-33cb-4159-afe6-bf3df12b5df2">
+    </UnitTestResult>
+  </Results>
+</TestRun>

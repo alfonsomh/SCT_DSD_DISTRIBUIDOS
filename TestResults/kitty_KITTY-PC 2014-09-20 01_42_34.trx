@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e9677cc2-fa8d-40df-98ae-6baa18f63dbe" name="kitty@KITTY-PC 2014-09-20 01:42:34" runUser="kitty-PC\kitty" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ee37db28-8d7b-4fc9-94c4-dec392d1284c">
+    <Description>Esta es la configuración de pruebas predeterminada para una ejecución de pruebas local.</Description>
+    <Deployment enabled="false" runDeploymentRoot="kitty_KITTY-PC 2014-09-20 01_42_34">
+      <DeploymentItem filename="D:\UPC\EPE\Ciclo 06\Desarrollo para Sistemas Distribuidos\SCT_DSD_DISTRIBUIDOS-master\SCTServiceWCF\bin\SCTServiceWCF.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-09-20T01:42:34.7361932-05:00" queuing="2014-09-20T01:42:34.7761942-05:00" start="2014-09-20T01:42:34.7981947-05:00" finish="2014-09-20T01:42:39.2213008-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test4_ListarEmpresa" storage="d:\upc\epe\ciclo 06\desarrollo para sistemas distribuidos\sct_dsd_distribuidos-master\testempresaservice\bin\debug\testempresaservice.dll" id="a36491d5-5781-9c9c-b228-6f2ff3259abb">
+      <Execution id="adeebe30-316b-4219-b167-f60a55eb9d54" />
+      <TestMethod codeBase="D:/UPC/EPE/Ciclo 06/Desarrollo para Sistemas Distribuidos/SCT_DSD_DISTRIBUIDOS-master/TestEmpresaService/bin/Debug/TestEmpresaService.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestEmpresaService.UnitTest1, TestEmpresaService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test4_ListarEmpresa" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Resultados que no están en la lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a36491d5-5781-9c9c-b228-6f2ff3259abb" executionId="adeebe30-316b-4219-b167-f60a55eb9d54" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="adeebe30-316b-4219-b167-f60a55eb9d54" testId="a36491d5-5781-9c9c-b228-6f2ff3259abb" testName="Test4_ListarEmpresa" computerName="KITTY-PC" duration="00:00:02.6728655" startTime="2014-09-20T01:42:34.8021948-05:00" endTime="2014-09-20T01:42:37.6852640-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="adeebe30-316b-4219-b167-f60a55eb9d54">
+      <Output>
+        <StdOut>NHibernate: SELECT this_.ID_EMPRESA as ID1_0_0_, this_.EMPRESA as EMPRESA0_0_, this_.RUC as RUC0_0_, this_.TELEFONO as TELEFONO0_0_, this_.DIRECCION as DIRECCION0_0_ FROM T_SCT_EMPRESA this_</StdOut>
+        <ErrorInfo>
+          <Message>Error de Assert.AreEqual. Se esperaba &lt;4&gt;, pero es &lt;17&gt;. </Message>
+          <StackTrace>   en TestEmpresaService.UnitTest1.Test4_ListarEmpresa() en D:\UPC\EPE\Ciclo 06\Desarrollo para Sistemas Distribuidos\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\UnitTest1.cs:línea 41
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

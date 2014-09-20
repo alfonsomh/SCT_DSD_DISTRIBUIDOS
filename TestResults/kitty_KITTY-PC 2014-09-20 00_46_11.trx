@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6b30fc25-c117-40f7-b2b6-396aa3ddf340" name="kitty@KITTY-PC 2014-09-20 00:46:11" runUser="kitty-PC\kitty" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ee37db28-8d7b-4fc9-94c4-dec392d1284c">
+    <Description>Esta es la configuración de pruebas predeterminada para una ejecución de pruebas local.</Description>
+    <Deployment enabled="false" runDeploymentRoot="kitty_KITTY-PC 2014-09-20 00_46_11">
+      <DeploymentItem filename="D:\UPC\EPE\Ciclo 06\Desarrollo para Sistemas Distribuidos\SCT_DSD_DISTRIBUIDOS-master\SCTServiceWCF\bin\SCTServiceWCF.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-09-20T00:46:11.0089857-05:00" queuing="2014-09-20T00:46:11.1779898-05:00" start="2014-09-20T00:46:11.2869924-05:00" finish="2014-09-20T00:46:15.3520899-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test1_ModificarEmpresa" storage="d:\upc\epe\ciclo 06\desarrollo para sistemas distribuidos\sct_dsd_distribuidos-master\testempresaservice\bin\debug\testempresaservice.dll" id="daa99df3-d624-3b23-0632-26c3bcffac93">
+      <Execution id="d0f7de98-1a55-485d-9be9-e3dbff7867b3" />
+      <TestMethod codeBase="D:/UPC/EPE/Ciclo 06/Desarrollo para Sistemas Distribuidos/SCT_DSD_DISTRIBUIDOS-master/TestEmpresaService/bin/Debug/TestEmpresaService.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestEmpresaService.UnitTest1, TestEmpresaService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test1_ModificarEmpresa" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Resultados que no están en la lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="daa99df3-d624-3b23-0632-26c3bcffac93" executionId="d0f7de98-1a55-485d-9be9-e3dbff7867b3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d0f7de98-1a55-485d-9be9-e3dbff7867b3" testId="daa99df3-d624-3b23-0632-26c3bcffac93" testName="Test1_ModificarEmpresa" computerName="KITTY-PC" duration="00:00:02.1316746" startTime="2014-09-20T00:46:11.2999927-05:00" endTime="2014-09-20T00:46:13.8160531-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0f7de98-1a55-485d-9be9-e3dbff7867b3">
+      <Output>
+        <ErrorInfo>
+          <Message>El método de prueba TestEmpresaService.UnitTest1.Test1_ModificarEmpresa produjo la excepción: 
+NHibernate.StaleStateException: Batch update returned unexpected row count from update; actual row count: 0; expected: 1</Message>
+          <StackTrace>    en NHibernate.AdoNet.Expectations.VerifyOutcomeBatched(Int32 expectedRowCount, Int32 rowCount)
+   en NHibernate.AdoNet.SqlClientBatchingBatcher.DoExecuteBatch(IDbCommand ps)
+   en NHibernate.AdoNet.AbstractBatcher.ExecuteBatchWithTiming(IDbCommand ps)
+   en NHibernate.AdoNet.AbstractBatcher.ExecuteBatch()
+   en NHibernate.Engine.ActionQueue.ExecuteActions(IList list)
+   en NHibernate.Engine.ActionQueue.ExecuteActions()
+   en NHibernate.Event.Default.AbstractFlushingEventListener.PerformExecutions(IEventSource session)
+   en NHibernate.Event.Default.DefaultFlushEventListener.OnFlush(FlushEvent event)
+   en NHibernate.Impl.SessionImpl.Flush()
+   en SCTServiceWCF.Persistencia.BaseDAO`2.Modificar(Entidad entidad) en D:\UPC\EPE\Ciclo 06\Desarrollo para Sistemas Distribuidos\SCT_DSD_DISTRIBUIDOS-master\SCTServiceWCF\Persistencia\BaseDAO.cs:línea 32
+   en SCTServiceWCF.Servicios.Empresas.ModificarEmpresa(Int32 codigo, String empresa, String ruc, String telefono, String direccion) en D:\UPC\EPE\Ciclo 06\Desarrollo para Sistemas Distribuidos\SCT_DSD_DISTRIBUIDOS-master\SCTServiceWCF\Servicios\Empresas.svc.cs:línea 64
+   en TestEmpresaService.UnitTest1.Test1_ModificarEmpresa() en D:\UPC\EPE\Ciclo 06\Desarrollo para Sistemas Distribuidos\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\UnitTest1.cs:línea 24
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
